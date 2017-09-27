@@ -4,10 +4,13 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="aosp"
+  <!--<remote  name="aosp"
            fetch="https://android.googlesource.com/"
+           review="android-review.googlesource.com" />-->
+  <remote  name="aosp"
+           fetch="https://aosp.tuna.tsinghua.edu.cn/"
            review="android-review.googlesource.com" />
-
+  
   <remote  fetch="git://codeaurora.org/quic/la"
            name="caf"
            review="codeaurora.org"/>
@@ -29,7 +32,7 @@
            fetch="https://github.com/AospExtended-Devices"
            revision="7.x" />
 
-  <default revision="refs/tags/android-7.1.2_r29"
+  <default revision="refs/tags/android-7.1.2_r33"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
